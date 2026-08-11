@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .main-component{
@@ -38,7 +39,7 @@ body{
 
 .content{
     gap: 20px;
-    padding: 30px;
+    padding: 32px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -47,11 +48,12 @@ body{
 }
 
 .content p{
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: #6c7289;
     font-weight: 500;
+    margin: -10px 0px 0px 0px;
 }
 
 
@@ -59,7 +61,8 @@ body{
     font-family: "Fraunces";
     font-weight: 700;
     color: #1c232b;
-    line-height: 95%;
+    line-height: 100%;
+    font-size: 32px ;
 }
 
 .content .description{
@@ -86,6 +89,8 @@ body{
 .price .old-price{
     text-decoration: line-through;
     color: #6c7289;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 button{
@@ -95,11 +100,12 @@ button{
     border: none; 
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    padding: 15px;
     gap: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 button:hover{
